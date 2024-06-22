@@ -1,0 +1,49 @@
+p{
+    font-size: 70px;
+    color: white;
+}
+#title{
+    margin-left: 10%;
+    color: green;
+}
+#info{
+    width: 500px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+#map{
+    margin-top: 50px;
+}
+#result, #soll{
+    font-size: 30px;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10%;
+}
+#reset{
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 40px;
+    color: green;
+    border: none;
+    background-color: black;
+}
+
+#answer{
+    margin-top: 50px;
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+}
+
+#confirm{
+    font-size: 70px;
+    font-weight: bold;
+    color: green;
+    background-color: black;
+    border: none;
+}
+#loc{
+    color: black;
+}

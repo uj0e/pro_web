@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <title>거리 구하기 게임!</title>
+</head>
+<body style="background-color: black;">
+    <div>
+        <div id="info">
+            <p id="title">거리 구하기!</p>
+            <p id="result"></p>
+            <p id="soll"></p>
+            <button id="reset" onclick="removeCircles()">원 지우기!</button>
+        </div>
+        <div id="map" style="width:2000px;height:1000px;"></div>
+    </div>
+    <div>
+        <input type="number" id="answer">
+        <button id="confirm" onclick="getfloat()">제출</button>
+        <p>힌트(옆부분을 드래그해봐) : <span id="loc"></span> </p>
+    </div>
+</body>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=개인key입력"></script>
+<script src="main.js"></script>
+</html>
